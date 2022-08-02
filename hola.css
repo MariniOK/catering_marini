@@ -1,0 +1,14 @@
+#cuerpo{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 100px 500px 300px  100px;
+    grid-template-areas: "a1 a1 a1"
+                         "a4 a5 a6"
+                         "a7 a8 a9"
+                         "a10 a10 a10";
+}
+
+.a{
+    grid-area: a1;
+
+}

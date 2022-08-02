@@ -1,0 +1,117 @@
+
+*{
+    padding: 0%;
+    margin: 0%
+   
+    
+}
+.Body {
+   
+    background: hsla(228, 17%, 53%, 1);
+
+    background: linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1 );
+}
+    
+
+.header{
+
+background-color:#888ea5;
+position: sticky;
+top: 0%;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+align-items: center;
+border-bottom: 3px solid black;
+font-family: 'Comfortaa', cursiva;
+font-family:  'DM Sans', sans-serif;
+font-weight: 800;
+;
+}
+.encabesado{
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;;
+}
+.menu{ 
+    flex-wrap: nowrap;
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;;
+    font-size: 15px;
+    text-decoration-color: black;
+    list-style-type: none;
+  
+}
+.menu li{
+    text-decoration-color: black;
+    text-decoration-color: black;
+    display: inline-block;
+    margin: 40px 20px
+
+
+}
+.menu a{
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;
+    text-decoration: none;
+    color: black
+    
+} 
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;
+    margin: 30px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    border-top: 2px solid black;
+    padding: 20px;
+    background-color: rgb(128, 128, 126)
+  }
+.footer h5{
+
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;;
+    font-weight: 500;
+  }
+
+
+
+.video{
+    display: flex;
+   
+      height:50%;
+    align-items: center;
+    justify-self: center;
+    margin: 40px 120px 40px 190px;
+
+    
+}
