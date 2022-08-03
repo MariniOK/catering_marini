@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
        <link rel="stylesheet" href="index.css">
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +13,7 @@
         <enlace href="https: //fonts.googleapis.com/css2? family= Comfortaa:wght@300 &familia = DM + Sans & display=swap" rel="stylesheet">
     </head>
  <body class="body">
-    <header id="navegacion" class="div1"> 
+    <header class="header"> 
          <div class="encabezado" >
           <H1>Matias Marini</H1>
           <h2>catering</h2>
@@ -37,15 +39,15 @@
 
 
               <div class="seccion1">
-                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente saepe, ad quia facere totam odio dicta cum magni dolores accusamus aliquid modi nesciunt recusandae laudantium obcaecati architecto, nisi quae necessitatibus!</P>
-                <img src="./imageneshome/fotoindex1.jpg" alt="isla gastronomica" class="imagen1">
+                <P data-aos="zoom-in" data-aos-duration="2000">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente saepe, ad quia facere totam odio dicta cum magni dolores accusamus aliquid modi nesciunt recusandae laudantium obcaecati architecto, nisi quae necessitatibus!</P>
+                <img data-aos="fade-right"  data-aos-easing="linear"  data-aos-duration="1500" src="./imageneshome/fotoindex1.jpg" alt="isla gastronomica" class="imagen1">
               </div>
 
 
 
             <div class="seccion2">
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio quae sapiente eveniet vitae. Incidunt ab dignissimos sit quasi aperiam eum repellendus maxime perspiciatis a, doloribus laboriosam? Assumenda laboriosam pariatur reprehenderit.</p>
-             <img src="./imageneshome/fotoindex2.jpg" alt="plato principla en serie" class="imagen2">
+             <p data-aos="zoom-in" data-aos-duration="2000">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio quae sapiente eveniet vitae. Incidunt ab dignissimos sit quasi aperiam eum repellendus maxime perspiciatis a, doloribus laboriosam? Assumenda laboriosam pariatur reprehenderit.</p>
+             <img data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500"  src="./imageneshome/fotoindex2.jpg" alt="plato principla en serie" class="imagen2">
             </div>
           
           </div>
@@ -59,15 +61,19 @@
                 <h4>menu informal</h4>
                 <p>el menu Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maxime quos enim ipsam temporibus</p>
 
-               <img src="./imageneshome/fotoindex3.jpeg" alt="isla gastronomica campestre" class="imagen3">
+               <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" src="./imageneshome/fotoindex3.jpeg" alt="isla gastronomica campestre" class="imagen3">
                </div>
                <div class="seccion3B">
                  <H5>menu formal</H5>
                  <p>el menu Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maxime quos enim ipsam temporibus</p> 
-                <img src="./imageneshome/fotoindex4.jpg" alt="plato principal de ternera braseada con papas rusticas" class="imagen4">
+                <img data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" src="./imageneshome/fotoindex4.jpg" alt="plato principal de ternera braseada con papas rusticas" class="imagen4">
                </div>            
             
             </section>
+           
+
 
          </main>
   
@@ -77,6 +83,11 @@
 
 
         </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+              AOS.init();
+            </script>
 
 </body>
 </html>

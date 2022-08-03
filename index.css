@@ -1,13 +1,11 @@
+*{
+    padding: 0%;
+    margin: 0% }
+
+
+
 .body{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    grid-template-areas: "a1 a1 a1"
-    "a2 a3 a4"
-    "a6 a7 a8"
-    "a9 a9 a9";
+   
    
     background: hsla(228, 17%, 53%, 1);
 
@@ -21,48 +19,45 @@
 }
     
 
-.header{ 
-    grid-area: a1;
-   
-   
-     background-color:#888ea5;
-    
+.header{
+
+    background-color:#888ea5;
     position: sticky;
     top: 0%;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 3px solid black;
     font-family: 'Comfortaa', cursiva;
     font-family:  'DM Sans', sans-serif;
     font-weight: 800;
-    grid-area: a1;
-
-}
- 
-
-.menu{ 
-    font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;;
-    font-size: 15px;
-    text-decoration-color: black;
-    list-style-type: none;
-  
-}
-.menu li{
-    text-decoration-color: black;
-    text-decoration-color: black;
-    display: inline-block;
-    margin: 40px 20px
-
-}
-.menu a{
-    font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;
-    text-decoration: none;
-    color: black
+    ;
+    }
+    .menu{ 
+        flex-wrap: nowrap;
+        font-family: 'Comfortaa', cursiva;
+        font-family:  'DM Sans', sans-serif;;
+        font-size: 15px;
+        text-decoration-color: black;
+        list-style-type: none;
+      
+    }
+    .menu li{
+        text-decoration-color: black;
+        text-decoration-color: black;
+        display: inline-block;
+        margin: 40px 20px
     
-} 
+    
+    }
+    .menu a{
+        font-family: 'Comfortaa', cursiva;
+        font-family:  'DM Sans', sans-serif;
+        text-decoration: none;
+        color: black
+        
+    } 
 
 .main{
     justify-items: center;
@@ -120,8 +115,9 @@
 }
 
 .imagen1{
-    grid-area: a6;
-        width:50%
+   
+        width:rem
+
     
 }
 
@@ -208,7 +204,7 @@
 }
 
 .footer{
-    grid-area: "a9";
+   
 
     border-top: 2px solid black;
     padding: 20px;
