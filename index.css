@@ -1,4 +1,5 @@
-*{
+
+ *{
     padding: 0%;
     margin: 0% }
 
@@ -114,22 +115,6 @@
     font-weight: 500;
 }
 
-.imagen1{
-   
-        width:rem
-
-    
-}
-
-.imagen2{
-    width:50%;
-}
-.imagen3{
-    width: 30%;
-}
-.imagen4{
-    width: 30%;
-}
 
 .seccion3{
     
@@ -203,13 +188,6 @@
 
 }
 
-.footer{
-   
-
-    border-top: 2px solid black;
-    padding: 20px;
-    background-color: rgb(128, 128, 126)
-  }
 
   .footer h6{
     
@@ -226,3 +204,4 @@
     justify-content: center;
     align-items: center;
 }
+

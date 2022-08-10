@@ -3,9 +3,11 @@
     <head>
       
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
        <link rel="stylesheet" href="index.css">
+      
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+       
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,15 +16,20 @@
         <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
         <enlace href="https: //fonts.googleapis.com/css2? family= Comfortaa:wght@300 &familia = DM + Sans & display=swap" rel="stylesheet">
     </head>
- <body class="body">
-  <nav  class="navbar navbar-expand-lg sticky-top " class="navbar" style="background-color: #8194a1;" >
+
+
+ <body class="body" class="conteiner" >
+
+
+
+  <nav  class=" px-5 navbar navbar-expand-lg sticky-top  " class="navbar" style="background-color: #8194a1;" >
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Matias Marini catering</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class=" navbar-nav ">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
@@ -66,46 +73,47 @@
     </header>
      
         
-        <main class="main">
+        <main class="row px-5 my-5" class="main">
 
-          <div class="intro">
+    
 
 
-              <div class="seccion1">
-                <P data-aos="zoom-in" data-aos-duration="2000">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente saepe, ad quia facere totam odio dicta cum magni dolores accusamus aliquid modi nesciunt recusandae laudantium obcaecati architecto, nisi quae necessitatibus!</P>
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 px-6 " class="seccion1">
+                <P class="" data-aos="zoom-in" data-aos-duration="2000">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente saepe, ad quia facere totam odio dicta cum magni dolores accusamus aliquid modi nesciunt recusandae laudantium obcaecati architecto, nisi quae necessitatibus!</P>
                 <img data-aos="fade-right"  data-aos-easing="linear"  data-aos-duration="1500" src="./imageneshome/fotoindex1.jpg" alt="isla gastronomica" class="imagen1">
               </div>
 
 
 
-            <div class="seccion2">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 px-6 ">
              <p data-aos="zoom-in" data-aos-duration="2000">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio quae sapiente eveniet vitae. Incidunt ab dignissimos sit quasi aperiam eum repellendus maxime perspiciatis a, doloribus laboriosam? Assumenda laboriosam pariatur reprehenderit.</p>
              <img data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500"  src="./imageneshome/fotoindex2.jpg" alt="plato principla en serie" class="imagen2">
             </div>
           
           </div>
-
+        </main>
+  
         
 
-          <div class="container-md">
+          <div class="card-group">
           
-             <div class="card mb-2">
+             <div class="card border-dark mb-3 text-bg-secondary mb-3">
               <img src="imageneshome/fotoindex3.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div class="card-body text-dark">
                 <h5 class="card-title">menu informal</h5>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro eaque aliquam adipisci minima obcaecati, nesciunt excepturi. Eos consequatur voluptatibus, nisi quo earum minima deserunt aspernatur distinctio inventore, sed dolorum temporibus.</p>
                 <p class="card-text"><small class="text-muted">trabajo del evento al aire libre</small></p>
               </div>
             </div>
-            <div class="card">
-              <div class="card-body">
+            <div class="card border-dark mb-3 text-bg-secondary mb-3" >
+              <div class="card-body text-dark">
                 <h5 class="card-title">menu formal</h5>
                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat dolore at quos dolores ducimus explicabo nam, asperiores, praesentium autem necessitatibus, reiciendis magnam. Veniam recusandae sed debitis rem expedita architecto aliquid.</p>
                 <p class="card-text"><small class="text-muted">evento en salon privado</small></p>
               </div>
               <img src="imageneshome/fotoindex4.jpg" class="card-img-bottom" alt="...">
             </div>
-             
+          </div>   
            <!--    <div class="seccion3A">
                 <h4>menu informal</h4>
                 <p>el menu Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maxime quos enim ipsam temporibus</p>
@@ -127,10 +135,12 @@
          </main>
   
 
-       <footer class="footer">
-         <h6>Matias Marini Catering</h6>
-
-
+       <footer  class="footer">
+        <nav class="px-5 navbar" style="background-color: #8194a1">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Matias Marini catering</a>
+          </div>
+        </nav>
         </footer>
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
