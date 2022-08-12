@@ -1,0 +1,84 @@
+.Body {
+  background: #737b9c;
+  background: linear-gradient(90deg, #737b9c 0%, #d8dbe9 100%);
+  background: -moz-linear-gradient(90deg, #737b9c 0%, #d8dbe9 100%);
+  background: -webkit-linear-gradient(90deg, #737b9c 0%, #d8dbe9 100%); }
+
+.header {
+  background-color: #888ea5;
+  position: sticky;
+  top: 0%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 3px solid black;
+  font-family: 'Comfortaa', cursiva;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 800; }
+  .header nav {
+    flex-wrap: nowrap;
+    font-family: 'Comfortaa', cursiva;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    text-decoration-color: black;
+    list-style-type: none; }
+    .header nav li {
+      text-decoration-color: black;
+      text-decoration-color: black;
+      display: inline-block;
+      margin: 40px 20px; }
+    .header nav a {
+      font-family: 'Comfortaa', cursiva;
+      font-family: 'DM Sans', sans-serif;
+      text-decoration: none;
+      color: black; }
+
+.main .titulo {
+  padding: 70px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-family: 'Comfortaa', cursiva;
+  font-family: 'DM Sans', sans-serif; }
+
+.main .form {
+  height: 50%;
+  padding: 50px 20px 20px 20px;
+  margin: 50px 20px 20px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  font-family: 'Comfortaa', cursiva;
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.apartado {
+  font-family: 'Comfortaa', cursiva;
+  font-family: 'DM Sans', sans-serif;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; }
+  .apartado .redes a {
+    padding: 10%;
+    font-family: 'Comfortaa', cursiva;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursiva;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  border-top: 2px solid black;
+  padding: 20px;
+  background-color: #80807e; }

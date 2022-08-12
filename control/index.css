@@ -1,18 +1,12 @@
+
+
 *{
-    margin: 0px;
-    padding: 0px;
-}
-
-
-.body{
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: 100px 500px 300px  100px;
-    grid-template-areas: "a1 a1 a1"
-                         "a4 a5 a6"
-                         "a7 a8 a9"
-                         "a10 a10 a10";
+    padding: 0%;
+    margin: 0%
    
+    
+}
+.Body {
     background: hsla(228, 17%, 53%, 1);
 
     background: linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
@@ -21,31 +15,27 @@
     
     background: -webkit-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
     
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1 ); 
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1 );
 }
     
 
-.header{ 
-    grid-area: a1;
-   
-   
-     background-color:#888ea5;
-    
-    position: sticky;
-    top: 0%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-bottom: 3px solid black;
-    font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;
-    font-weight: 800;
-    grid-area: a1;
+.header{
 
+background-color:#888ea5;
+position: sticky;
+top: 0%;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+align-items: center;
+border-bottom: 3px solid black;
+font-family: 'Comfortaa', cursiva;
+font-family:  'DM Sans', sans-serif;
+font-weight: 800;
+;
 }
- 
-
 .menu{ 
+    flex-wrap: nowrap;
     font-family: 'Comfortaa', cursiva;
     font-family:  'DM Sans', sans-serif;;
     font-size: 15px;
@@ -70,164 +60,69 @@
 } 
 
 
-.main{
-    justify-items: center;
-    margin: 10px 5px 5px 5px;
+.titulo{
+    padding: 70px;
     display: flex;
-    align-content: space-between;
-    flex-direction: column
-   
-
-}
-
-.intro{
-     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin: 100px;
-    
-
-}
-
-.seccion1{
-    display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
-    align-content: space-around;
-    align-items: center;
-    gap: 100px;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-}
-.seccion1 p{
-    margin: 30px;
-    font-size: 100%;
     font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;;
-    font-weight: 500;
-}
-
-
-
-.seccion2{
-    display: flex;
-    justify-content: center;
-    align-content: space-around; 
-    align-items: center;
-    gap: 100px;
-    border-bottom: 3px solid black;
-
+    font-family:  'DM Sans', sans-serif;
 
 }
 
-.seccion2 p{
-    margin: 30px;
-    font-size: 100%;
+.form{  
+    height: 50%;
+    padding:50px 20px 20px 20px;
+    margin: 50px 20px 20px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
     font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;;
-    font-weight: 500;
-}
-
-.imagen1{
-    grid-area: a6;
-        width:50%
-    
-}
-
-.imagen2{
-    width:50%;
-}
-.imagen3{
-    width: 30%;
-}
-.imagen4{
-    width: 30%;
-}
-
-.seccion3{
-    
-   
+    font-family:  'DM Sans', sans-serif;
     display: flex;
-   flex-direction: column;
-   justify-items: center;
-  
-}
-
-.seccion3 h3{
-    display: flex;
-    justify-content: center;
-     margin: 6px 6px 6px 6px;
-     font-family: 'Comfortaa', cursiva;
-     font-family:  'DM Sans', sans-serif;;
-     font-weight: 500;
-    color: black
-    
-}
-
-.seccion3A{
-    display: flex;
-    align-items: center;
     flex-direction: column;
-    padding: 60px;
-  
-}
- .seccion3A h4{
-    font-size: 20px;
-    font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;;
-    font-weight: 500;
- }
 
-.seccion3A p{
-    padding: 20px;
-    font-size: 15px;
-    font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;;
-    font-weight: 500;
-}
-
-
-
-.seccion3B{
-    display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.apartado{
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;
     flex-direction: column;
-    padding: 20px 0px 50px 0px;
-
-
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
-.seccion3B h5{
-    padding: 20px;
-    font-size: 20px;
+.redes a{
+    padding: 10%;
     font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;;
-    font-weight: 500;
- 
-
-}
-
-.seccion3B p{
-    padding: 20px;
-    margin: 0px 60px 00px 60px;
-    font-size: 15;
-    font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;;
-    font-weight: 500;
+    font-family:  'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black 
     
 
-
 }
+
+
+
+
+
+
+
+
+
 
 .footer{
-    grid-area: "a10";
-
     border-top: 2px solid black;
     padding: 20px;
     background-color: rgb(128, 128, 126)
   }
-
-  .footer h6{
-    
+.footer h5{
 
     display: flex;
     justify-content: center;
@@ -238,4 +133,136 @@
   }
 
 
+
+  *{
+    padding: 0%;
+    margin: 0%
+   
+    
+}
+.Body {
+    background: hsla(228, 17%, 53%, 1);
+
+    background: linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1 );
+}
+    
+
+.header{
+
+background-color:#888ea5;
+position: sticky;
+top: 0%;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+align-items: center;
+border-bottom: 3px solid black;
+font-family: 'Comfortaa', cursiva;
+font-family:  'DM Sans', sans-serif;
+font-weight: 800;
+;
+}
+.menu{ 
+    flex-wrap: nowrap;
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;;
+    font-size: 15px;
+    text-decoration-color: black;
+    list-style-type: none;
+  
+}
+.menu li{
+    text-decoration-color: black;
+    text-decoration-color: black;
+    display: inline-block;
+    margin: 40px 20px
+
+
+}
+.menu a{
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;
+    text-decoration: none;
+    color: black
+    
+} 
+
+
+.titulo{
+    padding: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;
+
+}
+
+.form{  
+    height: 50%;
+    padding:50px 20px 20px 20px;
+    margin: 50px 20px 20px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.apartado{
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.redes a{
+    padding: 10%;
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black 
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    border-top: 2px solid black;
+    padding: 20px;
+    background-color: rgb(128, 128, 126)
+  }
+.footer h5{
+
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursiva;
+    font-family:  'DM Sans', sans-serif;;
+    font-weight: 500;
+  }
 
