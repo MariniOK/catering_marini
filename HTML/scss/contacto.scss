@@ -1,3 +1,25 @@
+*{
+    padding: 0%;
+    margin: 0%
+   
+    
+}
+@mixin estilo_letra ($tamaño , $color) {
+     font-family: 'Comfortaa', cursiva;
+      font-family:  'DM Sans', sans-serif;
+      font-size: $tamaño;
+      color: $color;
+    
+}
+
+
+
+
+
+
+
+
+
 
 .Body {
     background: hsla(228, 17%, 53%, 1);
@@ -10,10 +32,8 @@
     
 
 }
-    
 
 .header{
-
 background-color:#888ea5;
 position: sticky;
 top: 0%;
@@ -22,13 +42,12 @@ flex-wrap: nowrap;
 justify-content: space-evenly;
 align-items: center;
 border-bottom: 3px solid black;
-font-family: 'Comfortaa', cursiva;
-font-family:  'DM Sans', sans-serif;
+@include estilo_letra(20px,black );
 font-weight: 800;
+
 nav{ 
     flex-wrap: nowrap;
-    font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;;
+    @include estilo_letra(20px,black );
     font-size: 15px;
     text-decoration-color: black;
     list-style-type: none;
@@ -38,8 +57,7 @@ nav{
         display: inline-block;
         margin: 40px 20px}
         a{
-            font-family: 'Comfortaa', cursiva;
-            font-family:  'DM Sans', sans-serif;
+            @include estilo_letra(20px,black );
             text-decoration: none;
             color: black
             
@@ -52,18 +70,18 @@ nav{
 
  .main{
     .titulo{
+        @include estilo_letra(30px,black );
         padding: 70px;
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
-        font-family: 'Comfortaa', cursiva;
-        font-family:  'DM Sans', sans-serif; }
+         }
         .form{  
             height: 50%;
             padding:50px 20px 20px 20px;
             margin: 50px 20px 20px 20px;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-            
+            @include estilo_letra(20px,black );
             font-family: 'Comfortaa', cursiva;
             font-family:  'DM Sans', sans-serif;
             display: flex;
@@ -76,8 +94,8 @@ nav{
  }
 
 .apartado{
-    font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;
+    @include estilo_letra(20px,black );
+    
     flex-direction: column;
     display: flex;
     flex-wrap: nowrap;
@@ -85,18 +103,17 @@ nav{
     align-items: center;
     text-decoration: none;
     .redes a{
+        @include estilo_letra(20px,black );
     padding: 10%;
-    font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;
+    
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color: black 
+  
     
 
 }
 }
-
 
 
 
@@ -106,12 +123,12 @@ nav{
 
 
 .footer{
-    
+    @include estilo_letra(40px,black );
+  
     display: flex;
     justify-content: center;
     font-size: 20px;
-    font-family: 'Comfortaa', cursiva;
-    font-family:  'DM Sans', sans-serif;;
+    
     font-weight: 500;
     border-top: 2px solid black;
     padding: 20px;

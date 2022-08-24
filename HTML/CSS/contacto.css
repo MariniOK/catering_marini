@@ -1,3 +1,7 @@
+* {
+  padding: 0%;
+  margin: 0%; }
+
 .Body {
   background: #737b9c;
   background: linear-gradient(90deg, #737b9c 0%, #d8dbe9 100%);
@@ -15,11 +19,15 @@
   border-bottom: 3px solid black;
   font-family: 'Comfortaa', cursiva;
   font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  color: black;
   font-weight: 800; }
   .header nav {
     flex-wrap: nowrap;
     font-family: 'Comfortaa', cursiva;
     font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: black;
     font-size: 15px;
     text-decoration-color: black;
     list-style-type: none; }
@@ -31,22 +39,30 @@
     .header nav a {
       font-family: 'Comfortaa', cursiva;
       font-family: 'DM Sans', sans-serif;
+      font-size: 20px;
+      color: black;
       text-decoration: none;
       color: black; }
 
 .main .titulo {
+  font-family: 'Comfortaa', cursiva;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 30px;
+  color: black;
   padding: 70px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
-  font-family: 'Comfortaa', cursiva;
-  font-family: 'DM Sans', sans-serif; }
+  justify-content: center; }
 
 .main .form {
   height: 50%;
   padding: 50px 20px 20px 20px;
   margin: 50px 20px 20px 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  font-family: 'Comfortaa', cursiva;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  color: black;
   font-family: 'Comfortaa', cursiva;
   font-family: 'DM Sans', sans-serif;
   display: flex;
@@ -57,6 +73,8 @@
 .apartado {
   font-family: 'Comfortaa', cursiva;
   font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  color: black;
   flex-direction: column;
   display: flex;
   flex-wrap: nowrap;
@@ -64,20 +82,23 @@
   align-items: center;
   text-decoration: none; }
   .apartado .redes a {
-    padding: 10%;
     font-family: 'Comfortaa', cursiva;
     font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 10%;
     display: flex;
     flex-direction: column;
-    text-decoration: none;
-    color: black; }
+    text-decoration: none; }
 
 .footer {
+  font-family: 'Comfortaa', cursiva;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 40px;
+  color: black;
   display: flex;
   justify-content: center;
   font-size: 20px;
-  font-family: 'Comfortaa', cursiva;
-  font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   border-top: 2px solid black;
   padding: 20px;
