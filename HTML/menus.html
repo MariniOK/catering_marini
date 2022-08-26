@@ -2,6 +2,8 @@
 
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="menus.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,31 +11,70 @@
     </title>
 </head>
 
-<body>
+<body class="body">
     
 
-    <header>
-      <H1>Matias Marini</H1>
-      <H2>catering</H2>
-         <nav>
-            <ul>
-                <li><a href="../index.html">HOME</a> </li>
-                <li><a href="nosotros.html">sobre nosotros</a></li>
-                <li><a href="menus.html">nuestros menus</a></li>
-                <li><a href="imagenes.html">galeria</a></li>
-                <li><a href="contacto.html">Contactanos</a></li>
-   
-   
-   
-   
-              
-   
-            </ul>
     
-         </nav>  
-      <img src="/PROYECTO/platos/menus1.jpg" alt="">
-    </header>
+  <nav  class=" px-5 navbar navbar-expand-lg sticky-top  " class="navbar" style="background-color: #8194a1;" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Matias Marini catering</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class=" navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="menus.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menus.html">Nuestros Menus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="imagenes.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contactanos</a>
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  
         <main>
+ 
+            <table class="px-5 my-5 table table-primary table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">tipos de menu</th>
+                    <th scope="col">servicio</th>
+                    <th scope="col">ejemplos</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>menu formal</td>
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus nulla repellat quia! Suscipit fugiat, nemo, quae dolorem molestias, voluptas aspernatur perspiciatis iste est repudiandae animi accusamus reiciendis. Illo, nihil iusto!</td>
+                    <td>asamientos, fiestas de quinceaños, bautismos, funerales</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>menu informal</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quo magni deleniti dolorem? Dolore consequuntur eveniet neque quos vel perferendis. Quidem, magni. Eveniet dolor ex obcaecati animi provident officia tenetur!</td>
+                    <td>cumpleaños, presentaciones de firmas, inaguraciones, eventos empresariales, fiesta de egreso escolar</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+
+
+
+<!--
 
 
             <table>  
@@ -55,27 +96,38 @@
                 </tr>
             </table>
 
-
-          <h1>menu formal</h1>
-          <p>Ofrecemos todos los pasos para que vivas una experiencia gastronómica a la altura del evento que siempre soñaste.
-           Bocados fríos, Bocados calientes, Buffet Froid,Variedad de panificados, Buffet Caliente, Islas regionales de las ciudades más prestigiosas del mundo, Entrada, Plato principal, Postre, Mesa dulce, Servicio de cafetería, Final gastronómico</p>
-          <h1> menu informal</h1>
-          <p>Viví una experiencia relajada degustando nuestros innovadores bocados garantizando los sabores de siempre.
-             Contamos con variedad de bocados fríos y calientes, servicio de buffet froid y buffet caliente, variedad de panificados, islas regionales, variedad de bocados y shots dulces; y servicio de cafetería.
-            En todos nuestros menues contamos con opciones para los más jóvenes, opciones de menú sin TAAC, veggie, vegano.</p>
-
+-->
+<div class="card text-bg-light mb-3">
+  
+  <div class="card-body">
+    <h5 class="card-title">menu formal</h5>
+    <p class="card-text">Ofrecemos todos los pasos para que vivas una experiencia gastronómica a la altura del evento que siempre soñaste.
+        Bocados fríos, Bocados calientes, Buffet Froid,Variedad de panificados, Buffet Caliente, Islas regionales de las ciudades más prestigiosas del mundo, Entrada, Plato principal, Postre, Mesa dulce, Servicio de cafetería, Final gastronómico</p>
+     </p>
+   
+  </div>
+</div>
+<div class="card text-bg-light mb-3"  >
+  
+  <div class="card-body" class="card border-dark mb-3 text-bg-secondary mb-3">
+    <h5 class="card-title">menu informal </h5>
+    <p class="card-text">Viví una experiencia relajada degustando nuestros innovadores bocados garantizando los sabores de siempre.
+        Contamos con variedad de bocados fríos y calientes, servicio de buffet froid y buffet caliente, variedad de panificados, islas regionales, variedad de bocados y shots dulces; y servicio de cafetería.
+       En todos nuestros menues contamos con opciones para los más jóvenes, opciones de menú sin TAAC, veggie, vegano.</p>
+   </p>
+    
+  </div>
 
         </main>
 
-             <footer>
-            
-
-             <h5>Matias Marini </h5>
-             <h6>catering</h6>
-
-             </footer>
-
-    
+        <footer  class="footer">
+            <nav class="px-5 navbar" style="background-color: #8194a1">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Matias Marini catering</a>
+              </div>
+            </nav>
+            </footer>
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha38
 </body>
 
 
